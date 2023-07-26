@@ -10,10 +10,10 @@
 unique_id = ${DEVELOPMENT_TEAM}
 
 
-// To build multiple instances of LoopFollow, uncomment the next two lines
-// and replace "Bob" with the desired app name for this instance:
-display_name = Bob
-unique_id = $(display_name)
+// To build multiple instances of LoopFollow, remove the // on
+// the next two lines and replace "Bob" with the desired app name for this instance:
+//display_name = Bob
+//unique_id = $(display_name)
 
 // Explanation:
 // --------------------------------
@@ -28,4 +28,4 @@ unique_id = $(display_name)
 // com.Jonas.LoopFollow
 
 // Note: Remember to comment out or remove the 'display_name' and 'unique_id' lines
-// when you want to revert to using the default bundle identifier with just the 'unique_id'.    
+// when you want to revert to using the default bundle identifier with just the 'unique_id'.
