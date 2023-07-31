@@ -10,17 +10,22 @@
 unique_id = ${DEVELOPMENT_TEAM}
 
 
-// To build multiple instances of LoopFollow, remove the // on
-// the next two lines and replace "Bob" with the desired app name for this instance:
+// Build Multiple Instances of LoopFollow with Custom App Names using Xcode:
+
+// 1. Remove the initial // on the two following lines (starting with display_name and app_suffix)
 //display_name = Bob
 //app_suffix = .$(display_name)
 
+// 2. Customize the app name on the row starting with display_name.
+// Example: Replace "Bob" with "LF-Sarah" or "Sarah"
 
+// 3. Build the app to your device(s).
+// If you want more instances of the app, repeat steps 2 and 3 with different app names.
 
 // Explanation:
 // --------------------------------
-// For example, if 'display_name' is set to "Jonas", the bundle identifier will become:
+// For example, if 'display_name' is set to "Jonas" the app will me named "Jonas", the bundle identifier will become:
 // com.<TEAM_ID>.LoopFollow.Jonas
 
-// Note: Remember to comment out or remove the 'display_name' and 'app_suffix' lines
-// when you want to revert to using the default bundle identifier.
+// Note: Remember to comment out (add //) or remove the 'display_name' and 'app_suffix' lines
+// when you want to revert to using the default app name and bundle identifier.
