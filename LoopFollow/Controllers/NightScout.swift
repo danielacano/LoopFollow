@@ -1123,6 +1123,8 @@ extension MainViewController {
                     tempBasal.append(entry!)
                 case "Correction Bolus":
                     bolus.append(entry!)
+                case "Bolus":
+                    bolus.append(entry!)
                 case "Meal Bolus":
                     carbs.append(entry!)
                     bolus.append(entry!)
